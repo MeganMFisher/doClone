@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+body {
+    font-family: "Open Sans", sans-serif; 
+    line-height: 1.43;
+    background-color: white;
+}
+
+.main-header {
+    font-size: 16px;
+    color: #555; 
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: #9ce;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    letter-spacing: -3px;
+}
+
+.buy {
+    font-size: 16px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #9ce;
+    
+}
+
+.watch-demo {
+    background-color: #FD9A27;
+    height: 35px;
+    width: 124px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-right: -35px;    
+
+}
+  
+.menu {
+    font-size: 26px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*------------------------------*/
+
+.main-page {
+    margin-top: 60px;
+    width: 345px;
+    height: 430px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    font-family: "Open Sans";
+}
+
+.action {
+    margin-top: 30px;
+    color: #9c9c9c;
+    font-size: 34px;
+}
+
+.main-words {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #9c9c9c;
+    letter-spacing: 1px;
+   font-family: sans-serif;
+   line-height: 20px;
+   font-size: 14px;
+}
+
+.overlay-container {
+  
+    height: 194px;
+    width: 345px;
+    position: relative;
+    
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay p {
+    text-transform: uppercase;
+}
+
+.video {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%; /* Change this till it fits the dimensions of your video */
+    position: relative;
+    z-index: 1;
+ 
+   
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+/*----------------------------*/
+
+.form-container {
+    width: 345px;
+    height: 686px;
+    background-color: #9ce;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.form-info {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 285px;
+    margin-left: 30px;
+    
+}
+
+.item {
+    padding: 15px 30px;
+}
+
+.form-control {
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 16px;
+    color: #555;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    padding: 15px;
+}
+
+
+.form {
+    color: #9c9c9c;
+}
+
+.customize {
+    color: white;
+    font-weight: 700;
+    margin-left: 27px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.watchnow {
+    width: 285px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.watch {
+    background-color: #FD9A27;
+    height: 39px;
+    width: 199px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+/*-----------------------------------*/
+
+.ugh {
+    height: 956px;
+    width: 100%;
+    background-color: #333;
+}
+
+
+
+
+
+
+/*-----------------------------------*/
+
+.bottom {
+    width: 100%;
+    height: 761px;
+    background-color: #222222;
+}
